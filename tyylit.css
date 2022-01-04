@@ -376,9 +376,23 @@ li a:hover {
   }
 
   .nappulat ul li {
-    width: 55vw;
+    width: 50vw;
     font-size: 2.5rem;
     font-weight: 600;
+  }
+
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 17vw;
+    top: 70px;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
   }
 
   #koti img {
