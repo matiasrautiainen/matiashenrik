@@ -135,6 +135,7 @@ body {
 #koti {
   display: flex;
   flex-direction: column;
+ 
 }
 
 .logo img {
@@ -181,7 +182,7 @@ body {
 }
 
 #fullpage2 {
-  background-color: white;
+  background-color:#EF946C;
 }
 
 .hover-underline-animation {
