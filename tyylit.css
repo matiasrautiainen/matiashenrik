@@ -445,7 +445,11 @@ li a:hover {
   }
 
   .työetusivu {
-    margin-top: 15vh;
+    margin-top: 10vh;
+  }
+
+  .työetusivu h1 {
+    font-size: 4rem;
   }
 
   .työetusivu img {
@@ -463,31 +467,31 @@ li a:hover {
   }
 
   .selite_otsikko {
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 30vw;
   }
 
   .selite_teksti {
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 55vw;
   }
 
   .selite {
-    height: 30vh;
+    height: 60vh;
     margin-top: 20vh;
   }
 
   .toteutus_otsikko {
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 30vw;
   }
   .toteutus_teksti {
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 55vw;
   }
 
   .toteutus {
-    height: 15vh;
+    height: 10vh;
   }
 
   .navbar {
