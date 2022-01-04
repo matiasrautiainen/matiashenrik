@@ -410,6 +410,7 @@ li a:hover {
 
   .navigaatio li {
     font-size: 0.7rem;
+    width: fit-content;
   }
 
   .työ {
@@ -427,7 +428,7 @@ li a:hover {
     height: 10vh;
     width: 90vw;
     margin-left: 0vw;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 6vh;
   }
 
@@ -452,6 +453,7 @@ li a:hover {
     width: 90vw;
     height: auto;
     margin-left: 0vw;
+    padding-top: 10vh;
   }
 
   .työetusivu {
@@ -487,7 +489,7 @@ li a:hover {
   }
 
   .selite {
-    height: 60vh;
+    min-height: 60vh;
     margin-top: 20vh;
   }
 
@@ -501,7 +503,7 @@ li a:hover {
   }
 
   .toteutus {
-    height: 10vh;
+    min-height: 10vh;
   }
 
   .navbar {
@@ -511,7 +513,7 @@ li a:hover {
 
   .kokokuva {
     height: auto;
-    margin-top: 5vh;
+    margin-top: 10vh;
   }
 
   .kokokuva img {
@@ -533,10 +535,11 @@ li a:hover {
 
   #yhteystiedot p {
     font-size: 1rem;
+    margin-left: 5vw;
   }
 
   #yhteystiedot a {
-    margin-left: 27vw;
+    margin-left: 25vw;
     font-size: 1rem;
   }
 
