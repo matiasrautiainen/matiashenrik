@@ -406,6 +406,11 @@ li a:hover {
     margin-left: 0vw;
     width: 80vw;
     font-size: 2rem;
+    justify-content: space-evenly;
+  }
+
+  .navigaatio li {
+    font-size: 0.7rem;
   }
 
   .työ {
@@ -426,7 +431,7 @@ li a:hover {
   }
 
   .esittelyteksti {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .matias_kuva {
