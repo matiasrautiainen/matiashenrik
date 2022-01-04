@@ -30,21 +30,12 @@ body {
   margin-right: 90vw;
   background-color: bisque;
   margin-top: 60vh;
-
 }
 
 .profiiliteksti {
   text-align: justify;
   font-weight: 600;
 }
-
-
-
-
-
-
-
-
 
 .työ {
   height: 90vh;
@@ -55,7 +46,6 @@ body {
   overflow: hidden;
   align-items: center;
   margin-bottom: 2vh;
-  
 }
 
 #työ2 {
@@ -73,7 +63,6 @@ body {
 
 .otsikot {
   height: 60vh;
-  
 }
 
 .otsikot img {
@@ -87,7 +76,6 @@ body {
   font-size: 5rem;
   margin-left: 35vw;
 }
-
 
 .työetusivu {
   height: 90vh;
@@ -135,7 +123,6 @@ body {
 #koti {
   display: flex;
   flex-direction: column;
- 
 }
 
 .logo img {
@@ -182,7 +169,7 @@ body {
 }
 
 #fullpage2 {
-  background-color:#EF946C;
+  background-color: #ef946c;
 }
 
 .hover-underline-animation {
@@ -264,7 +251,6 @@ h2 {
 
 .selite_teksti {
   width: 35vw;
-  
 }
 
 .toteutus {
@@ -363,8 +349,6 @@ li a:hover {
   color: gainsboro;
 }
 
-
-
 .puhelin {
   font-size: 3rem;
 }
@@ -392,8 +376,8 @@ li a:hover {
 
   .nappulat ul li {
     width: 50vw;
-    font-size: 2.2rem;
-    line-height: 6vh;
+    font-size: 2rem;
+    line-height: 7vh;
     font-weight: 600;
   }
 
@@ -405,7 +389,7 @@ li a:hover {
     height: 3px;
     bottom: 0;
     left: 17vw;
-    top: 70px;
+    top: 100px;
     background-color: white;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
@@ -419,7 +403,7 @@ li a:hover {
 
   .navigaatio {
     margin-left: 0vw;
-    width: 80vw;
+    width: 90vw;
     font-size: 2rem;
     justify-content: space-evenly;
   }
@@ -443,6 +427,13 @@ li a:hover {
     height: 10vh;
     width: 90vw;
     margin-left: 0vw;
+    font-size: 1.2rem;
+    line-height: 6vh;
+  }
+
+  .otsikot h2 {
+    padding-top: 3vh;
+    line-height: 5vh;
   }
 
   .esittelyteksti {
@@ -451,6 +442,10 @@ li a:hover {
 
   .profiilikuva {
     width: 90vw;
+  }
+
+  .profiiliteksti {
+    font-size: 0.8rem;
   }
 
   .profiilikuva img {
@@ -516,7 +511,7 @@ li a:hover {
 
   .kokokuva {
     height: auto;
-    margin-top: 0vh;
+    margin-top: 5vh;
   }
 
   .kokokuva img {
@@ -537,12 +532,12 @@ li a:hover {
   }
 
   #yhteystiedot p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   #yhteystiedot a {
     margin-left: 27vw;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   #yhteystiedot img {
