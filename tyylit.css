@@ -518,11 +518,16 @@ li a:hover {
   }
 
   #yhteystiedot h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
+  }
+
+  #yhteystiedot p {
+    font-size: 1.2rem;
   }
 
   #yhteystiedot a {
-    margin-left: 30vw;
+    margin-left: 27vw;
+    font-size: 1.2rem;
   }
 
   #yhteystiedot img {
