@@ -23,11 +23,28 @@ body {
 }
 
 .esittelyteksti {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   text-align: justify;
   margin-bottom: 4vh;
+  margin-right: 90vw;
+  background-color: bisque;
+  margin-top: 60vh;
+
 }
+
+.profiiliteksti {
+  text-align: justify;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
 
 .työ {
   height: 90vh;
@@ -38,6 +55,7 @@ body {
   overflow: hidden;
   align-items: center;
   margin-bottom: 2vh;
+  
 }
 
 #työ2 {
@@ -55,6 +73,7 @@ body {
 
 .otsikot {
   height: 60vh;
+  
 }
 
 .otsikot img {
@@ -68,6 +87,7 @@ body {
   font-size: 5rem;
   margin-left: 35vw;
 }
+
 
 .työetusivu {
   height: 90vh;
@@ -206,7 +226,7 @@ body {
   padding-top: 1vh;
   width: fit-content;
   text-align: center;
-  margin-left: 40vw;
+  margin-left: 38vw;
   font-weight: 600;
 }
 
@@ -230,7 +250,7 @@ h2 {
 }
 
 .selite {
-  height: 22vh;
+  height: 30vh;
   display: flex;
   flex-direction: row;
   font-size: 0.8rem;
@@ -243,7 +263,7 @@ h2 {
 
 .selite_teksti {
   width: 35vw;
-  text-align: justify;
+  
 }
 
 .toteutus {
@@ -272,11 +292,11 @@ h2 {
   margin-left: 10vw;
 }
 
-.matias_kuva {
+.profiilikuva {
   width: 45vw;
 }
 
-.matias_kuva img {
+.profiilikuva img {
   width: 35vw;
   height: 90vh;
   object-fit: cover;
@@ -342,13 +362,7 @@ li a:hover {
   color: gainsboro;
 }
 
-.yhteystiedot {
-  height: 22vh;
-  display: flex;
-  flex-direction: row;
-  font-size: 0.8rem;
-  font-weight: 300;
-}
+
 
 .puhelin {
   font-size: 3rem;
@@ -434,11 +448,11 @@ li a:hover {
     font-size: 1rem;
   }
 
-  .matias_kuva {
+  .profiilikuva {
     width: 90vw;
   }
 
-  .matias_kuva img {
+  .profiilikuva img {
     width: 90vw;
     height: auto;
     margin-left: 0vw;
