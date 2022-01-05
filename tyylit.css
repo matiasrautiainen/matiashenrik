@@ -361,12 +361,59 @@ li a:hover {
   font-size: 3rem;
 }
 
+/*
+
+.profiili_mobile {
+  visibility: hidden;
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 2vh;
+  margin-top: 40vh;
+}
+
+.profiili_mobile h1 {
+  font-size: 6rem;
+}
+
+.profiili_mobile p {
+  width: 40vw;
+  margin-left: 25vw;
+  font-weight: 600;
+}
+
+*/
+
 @media screen and (max-width: 768px) {
   .etusivuetusivu h1 {
     font-size: 4rem;
     line-height: 11vh;
     padding-bottom: 7vh;
   }
+  /*
+  .profiili {
+    visibility: hidden;
+  }
+
+  .profiili_mobile {
+    visibility: visible;
+    margin-top: 10vh;
+  }
+
+  .profiili_mobile h1 {
+    font-size: 4rem;
+  }
+
+  .profiili_mobile p {
+    width: 65vw;
+    margin-left: 15vw;
+    font-size: 0.8rem;
+  }
+
+  */
 
   .nappulat {
     margin-left: 0vw;
@@ -407,9 +454,10 @@ li a:hover {
 
   .navigaatio {
     margin-left: 0vw;
+    margin-right: 5vw;
     width: 90vw;
     font-size: 2rem;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .navigaatio li {
@@ -421,6 +469,7 @@ li a:hover {
     display: flex;
     flex-direction: column;
     min-height: 90vh;
+    overflow: visible;
   }
 
   .kuvaus {
@@ -446,7 +495,6 @@ li a:hover {
 
   .profiilikuva {
     width: 90vw;
-    overflow: visible;
   }
 
   .profiiliteksti {
@@ -474,8 +522,8 @@ li a:hover {
   }
 
   .työetusivu p {
-    width: 60vw;
-    margin-left: 15vw;
+    width: 65vw;
+    margin-left: 10vw;
     font-size: 0.8rem;
   }
 
@@ -486,30 +534,34 @@ li a:hover {
 
   .selite_otsikko {
     font-size: 0.8rem;
-    width: 30vw;
+    width: 90vw;
   }
 
   .selite_teksti {
     font-size: 0.8rem;
-    width: 60vw;
+    width: 90vw;
   }
 
   .selite {
-    min-height: 80vh;
+    min-height: 100vh;
     margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
   }
 
   .toteutus_otsikko {
     font-size: 0.8rem;
-    width: 30vw;
+    width: 90vw;
   }
   .toteutus_teksti {
     font-size: 0.8rem;
-    width: 60vw;
+    width: 90vw;
   }
 
   .toteutus {
-    min-height: 10vh;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
   }
 
   .navbar {
