@@ -414,14 +414,14 @@ li a:hover {
 
   .navigaatio li {
     font-size: 0.7rem;
-    width: 17.5vw;
+    width: 15vw;
   }
 
   .työ {
     display: flex;
     flex-direction: column;
-    min-height: 90vh;
-    overflow: visible;
+    min-height: 100vh;
+    overflow: scroll;
   }
 
   .kuvaus {
