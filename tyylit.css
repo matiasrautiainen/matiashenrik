@@ -409,19 +409,18 @@ li a:hover {
     margin-left: 0vw;
     width: 90vw;
     font-size: 2rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   .navigaatio li {
     font-size: 0.7rem;
-    width: 15vw;
+    width: 20vw;
   }
 
   .työ {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    overflow: scroll;
+    min-height: 120vh;
   }
 
   .kuvaus {
