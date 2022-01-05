@@ -414,13 +414,13 @@ li a:hover {
 
   .navigaatio li {
     font-size: 0.7rem;
-    width: 17.5vw;
+    width: 15vw;
   }
 
   .työ {
     display: flex;
     flex-direction: column;
-    min-height: 120vh;
+    min-height: 90vh;
   }
 
   .kuvaus {
@@ -446,10 +446,12 @@ li a:hover {
 
   .profiilikuva {
     width: 90vw;
+    overflow: visible;
   }
 
   .profiiliteksti {
     font-size: 0.8rem;
+    text-align: left;
   }
 
   .profiilikuva img {
@@ -474,6 +476,7 @@ li a:hover {
   .työetusivu p {
     width: 60vw;
     margin-left: 15vw;
+    font-size: 0.8rem;
   }
 
   .kuva {
@@ -482,27 +485,27 @@ li a:hover {
   }
 
   .selite_otsikko {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     width: 30vw;
   }
 
   .selite_teksti {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     width: 60vw;
   }
 
   .selite {
-    min-height: 60vh;
+    min-height: 80vh;
     margin-top: 20vh;
   }
 
   .toteutus_otsikko {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     width: 30vw;
   }
   .toteutus_teksti {
-    font-size: 0.9rem;
-    width: 55vw;
+    font-size: 0.8rem;
+    width: 60vw;
   }
 
   .toteutus {
@@ -538,7 +541,7 @@ li a:hover {
 
   #yhteystiedot p {
     font-size: 1rem;
-    margin-left: 4vw;
+    margin-left: 2vw;
   }
 
   #yhteystiedot a {
