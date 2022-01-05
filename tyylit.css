@@ -414,7 +414,7 @@ li a:hover {
 
   .navigaatio li {
     font-size: 0.7rem;
-    width: 20vw;
+    width: 17.5vw;
   }
 
   .työ {
@@ -490,10 +490,11 @@ li a:hover {
   .selite_teksti {
     font-size: 0.9rem;
     width: 55vw;
+    height: fit-content;
   }
 
   .selite {
-    height: fit-content;
+    min-height: 60vh;
     margin-top: 20vh;
   }
 
