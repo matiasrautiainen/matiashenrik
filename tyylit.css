@@ -37,6 +37,14 @@ body {
   font-weight: 600;
 }
 
+.profiiliteksti_mobiili {
+  visibility: hidden;
+}
+
+
+
+
+
 .työ {
   height: 90vh;
   width: 90vw;
@@ -389,9 +397,9 @@ li a:hover {
 
 @media screen and (max-width: 768px) {
   .etusivuetusivu h1 {
-    font-size: 4rem;
-    line-height: 11vh;
-    padding-bottom: 7vh;
+    font-size: 3rem;
+    line-height: 10vh;
+    padding-bottom: 3vh;
   }
   /*
   .profiili {
@@ -425,19 +433,26 @@ li a:hover {
   
   .nappulat {
     margin-left: 0vw;
+    
+  }
+
+  .nappulat a {
+    font-size: 1.4rem;
   }
 
   .nappulat ul {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-left: 20vw;
+    
   }
 
   .nappulat ul li {
     width: 50vw;
-    font-size: 2rem;
-    line-height: 7vh;
-    font-weight: 600;
+    height: auto;
+    line-height: 6vh;
+    font-weight: 400;
   }
 
   .hover-underline-animation:after {
@@ -457,7 +472,7 @@ li a:hover {
   #koti img {
     width: 10vw;
     height: auto;
-    margin-left: 15vw;
+    margin-left: 85vw;
     
   }
 
@@ -519,6 +534,8 @@ li a:hover {
 
   
 
+  
+
   .otsikot h2 {
     padding-top: 1vh;
     line-height: 4vh;
@@ -532,14 +549,38 @@ li a:hover {
     
   }
 
+  .profiili {
+    margin-top: 10vh;
+  }
+  #minustaotsikko h1 {
+    
+    font-size: 2rem;
+   
+    margin-bottom: 3vh;
+  }
+
   .profiilikuva {
     width: 90vw;
   }
 
   .profiiliteksti {
-    font-size: 0.8rem;
-    text-align: left;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    
   }
+
+  .profiiliteksti p {
+    width: 85vw;
+    margin-left: 2vw;
+    font-size: 1rem;
+    font-weight: 400;
+   
+  }
+
+  
+ 
+  
 
   .profiilikuva img {
     width: 90vw;
@@ -550,11 +591,12 @@ li a:hover {
 
   .työetusivu {
     margin-top: 10vh;
-    height: 80vh;
+    height: 65vh;
   }
 
   .työetusivu h1 {
-    font-size: 4rem;
+    font-size: 2rem;
+    margin-bottom: 2vh;
   }
 
   .työetusivu img {
@@ -562,9 +604,11 @@ li a:hover {
   }
 
   .työetusivu p {
-    width: 65vw;
-    margin-left: 10vw;
-    font-size: 0.8rem;
+    width: 80vw;
+    margin-left: 4vw;
+    font-size: 1rem;
+    font-weight: 400;
+   
   }
 
   .kuva {
@@ -654,16 +698,16 @@ li a:hover {
   }
 
   #yhteystiedot h1 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   #yhteystiedot p {
     font-size: 1rem;
-    margin-left: 2vw;
+    margin-left: 0vw;
   }
 
   #yhteystiedot a {
-    margin-left: 23vw;
+    margin-left: 20vw;
     font-size: 1rem;
   }
 
