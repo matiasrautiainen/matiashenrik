@@ -10,7 +10,11 @@ html {
 }
 
 body {
-  font-family: poppins, sans-serif;
+  /*font-family: poppins, sans-serif;*/
+  /*font-family: montserrat, sans-serif;*/
+  font-family: roc-grotesk-wide, sans-serif;
+  
+  
 }
 
 .fullpage {
@@ -20,6 +24,19 @@ body {
   justify-content: space-evenly;
   display: flex;
   flex-direction: column;
+  
+}
+
+.taustakuva {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.taustakuva img {
+  height: 100%;
+  
+  
 }
 
 .esittelyteksti {
@@ -34,11 +51,28 @@ body {
 
 .profiiliteksti {
   text-align: justify;
-  font-weight: 600;
+  font-weight: 300;
+  
+  
+}
+
+.profiiliteksti p {
+  font-family: roc-grotesk, sans-serif;
+  font-size: 1rem;
+  
+  
+  
 }
 
 .profiiliteksti_mobiili {
   visibility: hidden;
+}
+
+.profiili {
+  display: flex;
+  flex-direction: column;
+  height: 87vh;
+  width: 90vw;
 }
 
 
@@ -46,7 +80,7 @@ body {
 
 
 .työ {
-  height: 90vh;
+  height: 87vh;
   width: 90vw;
   margin-top: 8vh;
   display: flex;
@@ -54,12 +88,19 @@ body {
   overflow: hidden;
   align-items: center;
   margin-bottom: 2vh;
+  
+  
+  
 }
 
 #työ2 {
-  padding-top: 6vh;
-  height: 101vh;
+  height: 97vh;
+  padding-top: 10vh;
 }
+
+
+
+
 
 .kuvaus {
   width: 45vw;
@@ -69,21 +110,36 @@ body {
   justify-content: space-between;
 }
 
+
+  
+  
+
 .otsikot {
-  height: 60vh;
+  height: 62vh;
+  font-size: 1.5rem;
+  
+  
 }
 
 .otsikot img {
+  display: none;
   height: 20%;
   margin-left: 44vw;
   margin-top: 30vh;
 }
 
-#ekaotsikko {
-  margin-top: 20vh;
-  font-size: 5rem;
-  margin-left: 35vw;
+.otsikot h1 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  
+  
 }
+
+#minustaotsikko h1 {
+  font-size: 3rem;
+}
+
+
 
 .työetusivu {
   height: 90vh;
@@ -94,15 +150,20 @@ body {
   text-align: center;
   margin-bottom: 2vh;
   margin-top: 40vh;
+  
 }
 .työetusivu h1 {
-  font-size: 6rem;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 2vh;
 }
 
 .työetusivu p {
-  width: 40vw;
-  margin-left: 25vw;
-  font-weight: 600;
+  width: 45vw;
+  margin-left: 22.5vw;
+  font-weight: 300;
+  font-family: roc-grotesk, sans-serif;
+  font-size: 1.3rem;
 }
 
 .työetusivu img {
@@ -118,14 +179,26 @@ body {
   overflow: hidden;
   text-align: center;
   margin-bottom: 2vh;
+  margin-top: 20vh;
+  
 }
 
 .etusivuetusivu p {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .etusivuetusivu h1 {
-  font-size: 6rem;
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 4.3rem;
+  
+}
+
+.etusivuetusivu a {
+  font-weight: 500;
+  
+  
 }
 
 #koti {
@@ -140,6 +213,7 @@ body {
 }
 
 .logo {
+  display: none;
   height: 15vh;
 }
 
@@ -155,9 +229,10 @@ body {
 .nappulat a {
   text-decoration: none;
   list-style-type: none;
-  color: black;
+  color:black;
+  font-family: roc-grotesk, sans-serif;
 
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .nappulat ul {
@@ -206,13 +281,19 @@ body {
 }
 
 #yhteystiedot {
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
+  
+}
+
+#yhteystiedot h1 {
+  font-size: 4rem;
 }
 
 #yhteystiedot p {
   font-size: 1.3rem;
   padding-top: 1vh;
-  font-weight: 600;
+  font-weight: 300;
+  font-family: roc-grotesk, sans-serif;
 }
 
 #yhteystiedot a {
@@ -222,8 +303,9 @@ body {
   padding-top: 1vh;
   width: fit-content;
   text-align: center;
-  margin-left: 38vw;
-  font-weight: 600;
+  margin-left: 38.5vw;
+  font-weight: 300;
+  font-family: roc-grotesk, sans-serif;
 }
 
 #yhteystiedot a:hover {
@@ -241,44 +323,53 @@ h1 {
 }
 
 h2 {
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1rem;
+  font-family: roc-grotesk, sans-serif;
 }
 
 .selite {
-  height: 30vh;
+  height: 60vh;
   display: flex;
   flex-direction: row;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .selite_otsikko {
   width: 15vw;
-  font-weight: 600;
+  font-weight: 300;
+  font-family: roc-grotesk, sans-serif;
 }
 
 .selite_teksti {
   width: 35vw;
-  font-weight: 600;
+  font-weight: 300;
+  font-family: roc-grotesk, sans-serif;
+ 
+  
 }
 
+
+
 .toteutus {
-  height: 7.5vh;
+  height: 13vh;
   display: flex;
   flex-direction: row;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .toteutus_otsikko {
   width: 15vw;
-  font-weight: 600;
+  font-weight: 300;
+  font-family: roc-grotesk, sans-serif;
 }
 
 .toteutus_teksti {
   width: 35vw;
-  font-weight: 600;
+  font-weight: 300;
+  font-family: roc-grotesk, sans-serif;
 }
 
 .kuva {
@@ -289,6 +380,7 @@ h2 {
   height: 90vh;
   object-fit: cover;
   margin-left: 10vw;
+  
 }
 
 .profiilikuva {
@@ -324,7 +416,7 @@ h2 {
   /*border-bottom: 1.5px solid black;*/
   margin-left: 5vw;
   position: fixed;
-  background-color: white;
+  background-color:white;
 }
 
 .nimi {
@@ -336,25 +428,30 @@ h2 {
 .nimi img {
   height: 4vh;
   width: auto;
+  display: none;
 }
 .navigaatio {
   display: flex;
   flex-direction: row;
-  width: 30vw;
-  justify-content: space-evenly;
-  margin-left: 25vw;
+  width: 90vw;
+  justify-content:space-between;
+  margin-left:47vw;
+ 
+  
+  
 }
 
 .navigaatio li {
   list-style: none;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .navigaatio li a {
   text-decoration: none;
   color: black;
-
-  font-weight: 600;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 300;
+  
 }
 
 li a:hover {
@@ -507,6 +604,7 @@ li a:hover {
     flex-direction: column;
     height: auto;
     overflow: visible;
+    
     
     
   }
