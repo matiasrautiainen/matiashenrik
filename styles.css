@@ -150,7 +150,8 @@
     flex-direction: row;
     overflow: hidden;
     align-items: center;
-    margin-bottom: 2vh;
+    
+    
     
     
     
@@ -197,13 +198,15 @@
   .työetusivu {
     height: 70vh;
     width: 90vw;
-    margin-top: 8vh;
+    margin-top: 20vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     text-align: center;
     margin-bottom: 2vh;
-    margin-top: 40vh;
+    
+    
+    
     
     
   }
@@ -250,7 +253,7 @@
     overflow: hidden;
     align-items: center;
     margin-bottom: 2vh;
-    background-color: wheat;
+    
    
     
     
@@ -267,6 +270,7 @@
     overflow: hidden;
     align-items: center;
     margin-bottom: 2vh;
+    
     
     
 
