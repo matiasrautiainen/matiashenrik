@@ -198,7 +198,7 @@
   .työetusivu {
     height: 70vh;
     width: 90vw;
-    margin-top: 20vh;
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -719,11 +719,16 @@
   */
   
   @media screen and (max-width: 768px) {
-    .etusivuetusivu h1 {
+    .etusivu h1 {
       font-size: 3rem;
-      line-height: 10vh;
+      line-height: 7vh;
       padding-bottom: 3vh;
     }
+
+    .alas img {
+        width: 30% ;   
+    }
+    
     /*
     .profiili {
       visibility: hidden;
@@ -907,10 +912,10 @@
     
   
     .profiilikuva img {
-      width: 90vw;
+      width: 20vw;
       height: auto;
       margin-left: 0vw;
-      padding-top: 10vh;
+     
     }
   
     .työetusivu {
