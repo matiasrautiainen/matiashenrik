@@ -5,55 +5,433 @@
 <meta name="viewport" content="width=device-width,
 initial-scale=1, shrink-to-fit=no">
 <title>Matias Henrik</title>
+<script src="java.js"> </script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
-<link href="tyylit.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;500;900&display=swap" rel="stylesheet">
-
 <link rel="stylesheet" href="https://use.typekit.net/kxy6gvx.css">
-
 <link rel="icon" href="/kuvat/mlogo.png">
 </head>
 <body>
+    <nav>
+        <div class="navbar">
+            <ul class="navigaatio"> 
+                <li><a href="#työsivu2" class="active">Minusta</a></li>
+                <li><a href="#työsivu3">Töitäni</a></li>
+                <li><a href="yhteystiedot.html">Yhteystiedot</a></li> 
+            </ul>
+        </div>
+    </nav>
     
-   
+        
+    <div class="fullpage">
 
-    <div class="fullpage" id="fullpage2">
+        <div class="etusivu">       
+            <h1> MATIAS <ul></ul>HENRIK</h1>
+                <div class="alas">
+                    <a href="#työsivu2"><img src="/kuvat/nuoli2.png" alt=""></a>  
+                </div>
+        </div> 
+        
+        <div class="reveal" id="työsivu2">
+            <div class="profiilisivu">
+                <div class="profiili">
+                    <div class="otsikot" id="minustaotsikko">
+                        <h1>Minusta</h1>
+                    </div>
+                    <div class="profiiliteksti">
+                        <p>
+                        Olen Matias Rautiainen, toisen vuoden graafisen suunnittelun opiskelija Helsingistä. Aikaisemmin olen suorittanut graafisen suunnittelijan tutkinnon Helsinki Design Schoolissa, minkä jälkeen jatkoin opintoja Metropolia Ammattikorkeakoulussa.  
+                        Graafisessa suunnittelussa olen erityisesti kiinnostunut kuvittamisesta, typografiasta sekä painetusta grafiikasta. Tavoitteenani on kehittyä monipuoliseksi visuaalisen viestinnän ammattilaiseksi ja olen kiinnostunut laajasti erilaisista visuaalisen viestinnän työmahdollisuuksista.   
+                        </p>
+                    </div>
+                </div>        
+                <div class="profiilikuva">
+                <img src="/kuvat/promokuva_compressed.jpg" alt="">
+                </div>
 
-        <div class="taustakuva">
-            
+            </div>
         </div>
+       
         
         
-        <div class="työ" id="koti"> 
+        
             
-                  
-            <div class="etusivuetusivu">
-                
-                 <h1> MATIAS <ul></ul>HENRIK</h1>
-                 <!--<p>Graphic Designer</p>-->
-                
-                <div class="nappulat">
-                    <ul>
-            
-                        <li class="hover-underline-animation"></liclass><a href="minusta.html">Minusta </a></li>
-                        
-                        <li class="hover-underline-animation"></liclass><a href="työt.html"> Töitäni </a></li>
-                        
-                        <li class="hover-underline-animation"></liclass><a href="yhteystiedot.html"> Ota yhteyttä </a></li>
-                        
-                    </ul>
-                </div>     
+        
+        
+        <!-- <div class="reveal">
+            <div class="työ" id="työsivu3">          
+                <div class="työetusivu">
+                    <h1> Töitäni</h1>
+                    <p>Alla on kokoelma kurssitöitä sekä omia projektejani 
+                        viimeisen kahden vuoden ajalta. Suunnittelussani tavoitteena 
+                        on aina viestin tehokas välittyminen yhdistettynä visuaalisesti
+                        mieleenpainuvaan ilmeeseen. </p>     
+                </div>   
+            </div>
+        </div> -->
+        <div class="reveal">
+            <div class="työetusivu">       
+                <h1> Töitäni </h1>
+                <p>Alla on kokoelma kurssitöitä sekä omia projektejani 
+                    viimeisen kahden vuoden ajalta. Suunnittelussani tavoitteena 
+                    on aina viestin tehokas välittyminen yhdistettynä visuaalisesti
+                    mieleenpainuvaan ilmeeseen.</p>     
             </div> 
-           
+        </div>
+
+        <div class="alas2">
+            <a href="#työsivu3"><img src="/kuvat/nuoli2.png" alt=""></a>  
+        </div>
+
+        
+       
+        
+    
+
+
+        <div class="reveal" id="työsivu3">
+            <div class="työsivu">
+                <div class="vasenpuoli">
+                    <div class="otsikot">
+                        <h1>Ylistämällä alistetut</h1>
+                        <h2>Taitto <br> Metropolia 2020</h2>
+                    </div>
+                    <div class="selite">
+                        <div class="selite_otsikko">
+                            <p> info </p>
+                        </div>
+                        <div class="selite_teksti">
+                            <p>Työn tarkoituksena oli suunnitella lehtitaitto annetun teksti- ja 
+                                kuvamateriaalin pohjalta. Taitossa halusin korostaa taidekuvia antamalla 
+                                niille paljon tilaa ja käyttämällä pelkistettyä typografiaa. Lisäksi päätin 
+                                yhdistää kuviin voimakkaita, suuria väripintoja, jotka tuovat kontrastia kuvien 
+                                ja tekstin välille. </p>
+
+                        </div>
+                    </div>
+                    <div class="toteutus">
+                        <div class="toteutus_otsikko">
+                            <p>Toteutus</p>
+                        </div>
+                        <div class="toteutus_teksti">
+                            <p>Adobe InDesign <br> Adobe Photoshop</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="oikeapuoli">
+                    <div class="kuva">
+                        <img src="/kuvat/taittokooste_mockup_compressed.jpg" alt="kuva1">
+                    </div>
+                </div>                 
+            </div> 
+        </div>
+        <div class="reveal">
+            <div class="kokokuva">
+                <img src="/kuvat/taittokooste_mockup_compressed.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="reveal">
+            <div class="työsivu">
+                <div class="vasenpuoli">
+                    <div class="otsikot">
+                        <h1>Mies ja kurpitsa</h1>
+                        <h2>Kuvitus ja Taitto <br> Metropolia 2021</h2>
+                    </div>
+                    <div class="selite">
+                        <div class="selite_otsikko">
+                            <p> info </p>
+                        </div>
+                        <div class="selite_teksti">
+                            <p>Mies ja kurpitsa on suunnittelemani kuvitus- ja taittotyö novellille. 
+                                Halusin kuvituksen ja taiton keinoin tuoda esille novellista välittyvää 
+                                salaperäistä ja hämyistä tunnelmaa sekä tukea tarinan etenemistä. Kuvitukset
+                                 ovat kohtauksia kullakin aukeamalla esitetystä novellin osasta. </p>
+
+                        </div>
+                    </div>
+                    <div class="toteutus">
+                        <div class="toteutus_otsikko">
+                            <p>Toteutus</p>
+                        </div>
+                        <div class="toteutus_teksti">
+                            <p>Adobe Illustrator <br> Adobe InDesign</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="oikeapuoli">
+                    <div class="kuva">
+                        <img src="/kuvat/kurpitsa2.jpg" alt="kuva1">
+                    </div>
+                </div>                 
+            </div> 
+        </div>
+        <div class="reveal">
+            <div class="kokokuva">
+                <img src="/kuvat/eka_aukeama_compressed.jpg" alt="">
+            </div>
+            <div class="kokokuva">
+               <img src="/kuvat/keskiaukeama_compressed.jpg" alt="">
+            </div>
+           <div class="kokokuva">
+               <img src="/kuvat/vika_aukeama_compressed.jpg" alt="">
+           </div>
         </div>
         
+        <div class="reveal">
+            <div class="työsivu">
+                <div class="vasenpuoli">
+                    <div class="otsikot">
+                        <h1>Verkkotypografia</h1>
+                        <h2>Verkkosivusto<br> Metropolia 2021</h2>
+                    </div>
+                    <div class="selite">
+                        <div class="selite_otsikko">
+                            <p> info </p>
+                        </div>
+                        <div class="selite_teksti">
+                            <p>Verkkotypografia on ensimmäinen itse koodaamani 
+                                nettisivusto, minkä tarkoituksena on esittää 
+                                verkkotypografiaan liittyvää tietoa ja käsitteitä. 
+                                Halusin suunnittelussa kiinnittää huomiota helppoon 
+                                käytettävyyteen sekä aiheen mukaisesti siistiin ja 
+                                luettavaan typografiaan. Käytettävyyttä parantavat 
+                                nuolet, joita painamalla käyttäjä liikkuu sivulla 
+                                eteenpäin ja sivusta toiseen sekä yksinkertainen 
+                                sivuston rakenne. Toteutin verkkosivuston käyttäen 
+                                HTML- ja CSS-ohjelmointikieliä.  </p>
+
+                        </div>
+                    </div>
+                    <div class="toteutus">
+                        <div class="toteutus_otsikko">
+                            <p>Toteutus</p>
+                        </div>
+                        <div class="toteutus_teksti">
+                            <p>Visual studio Code <br> Adobe Illustrator</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="oikeapuoli">
+                    <div class="kuva">
+                        <img src="/kuvat/nettisivu_mockup_compressed.jpg" alt="kuva1">
+                    </div>
+                </div>                 
+            </div> 
+        </div>
+        <div class="reveal">
+            <div class="kokokuva">
+                <img src="/kuvat/nettisivu_mockup_compressed.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="reveal">
+            <div class="työsivu">
+                <div class="vasenpuoli">
+                    <div class="otsikot">
+                        <h1>Ravinto Luova</h1>
+                        <h2>Käyttöliittymäsuunnittelu<br> Metropolia 2021</h2>
+                    </div>
+                    <div class="selite">
+                        <div class="selite_otsikko">
+                            <p> info </p>
+                        </div>
+                        <div class="selite_teksti">
+                            <p>Käyttöliittymä älypuhelinsovellukselle, jolla opiskelija 
+                                voi maksaa lounaan etukäteen ennen ruokailua opiskelijaravintolassa.
+                                 Suunnittelussa keskityin käyttöliittymän mahdollisimman helppoon ja 
+                                 vaivattomaan käytettävyyteen, sekä selkeään ja käyttäjäystävälliseen 
+                                 visuaaliseen ilmeeseen. Lisäksi halusin ottaa huomioon kokonaisvaltaisen 
+                                 käyttäjäkokemuksen toteuttamalla käyttöliittymästä prototyypin Adobe XD:llä. </p>
+
+                        </div>
+                    </div>
+                    <div class="toteutus">
+                        <div class="toteutus_otsikko">
+                            <p>Toteutus</p>
+                        </div>
+                        <div class="toteutus_teksti">
+                            <p>Adobe Illustrator <br> Adobe XD</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="oikeapuoli">
+                    <div class="kuva">
+                        <img src="/kuvat/proto1_compressed.jpg" alt="kuva1">
+                    </div>
+                </div>                 
+            </div> 
+        </div>
+        <div class="reveal">
+            <div class="kokokuva">
+                <img src="/kuvat/proto2_compressed.jpg" alt="">
+            </div>
+        </div>
+
+
+    
+        <div class="reveal">
+            <div class="työsivu">
+                <div class="vasenpuoli">
+                    <div class="otsikot">
+                        <h1>Ihan Parasta</h1>
+                        <h2>Juliste<br> Metropolia 2021</h2>
+                    </div>
+                    <div class="selite">
+                        <div class="selite_otsikko">
+                            <p> info </p>
+                        </div>
+                        <div class="selite_teksti">
+                            <p>Julistetehtävä, jossa julisteen tarkoituksena oli heijastaa sanaparia 
+                                ”ihan parasta”. Halusin julisteessa käyttää voimakkaita värejä, jotka 
+                                kiinnittävät katsojan huomion ja kuvituksen avulla tuoda esiin julisteen idean.  </p>
+
+                        </div>
+                    </div>
+                    <div class="toteutus">
+                        <div class="toteutus_otsikko">
+                            <p>Toteutus</p>
+                        </div>
+                        <div class="toteutus_teksti">
+                            <p>Adobe Illustrator</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="oikeapuoli">
+                    <div class="kuva">
+                        <img src="/kuvat/ihanparasta_mockup_compressed.jpg" alt="kuva1">
+                    </div>
+                </div>                 
+            </div> 
+        </div>
+        <div class="reveal">
+            <div class="kokokuva">
+                <img src="/kuvat/ihanparasta_mockup_compressed.jpg" alt="">
+            </div>
+        </div>
+         
+     <!--  
+       
+            
+
+       
+       
+
+         
+
+         <div class="työ">
+            <div class="kuvaus">
+                <div class="otsikot">
+                    <h1>Ihan parasta</h1>
+                    <h2>Juliste <br> Metropolia 2021</h2>
+                </div>
+                <div class="selite">
+                    <div class="selite_otsikko">
+                        <p> info </p>
+                    </div>
+                    <div class="selite_teksti">
+                        <p>Julistetehtävä, jossa julisteen tarkoituksena oli heijastaa sanaparia 
+                            ”ihan parasta”. Halusin julisteessa käyttää voimakkaita värejä, jotka 
+                            kiinnittävät katsojan huomion ja kuvituksen avulla tuoda esiin julisteen idean.   </p>
+
+                    </div>
+
+                </div>
+                <div class="toteutus">
+                    <div class="toteutus_otsikko">
+                        <p>Toteutus</p>
+
+                    </div>
+                    <div class="toteutus_teksti">
+                        <p>Adobe Illustrator</p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="kuva">
+                <img src="/kuvat/ihanparasta_mockup_compressed.jpg" alt="">
+            </div>
+         </div>
+         <div class="kokokuva">
+             <img src="/kuvat/ihanparasta_mockup_compressed.jpg" alt="">
+         </div>
+
+         <div class="työ">
+            <div class="kuvaus">
+                <div class="otsikot">
+                    <h1>Ihan parasta</h1>
+                    <h2>Juliste <br> Koulutyö 2021</h2>
+                </div>
+                <div class="selite">
+                    <div class="selite_otsikko">
+                        <p> info </p>
+                    </div>
+                    <div class="selite_teksti">
+                        <p>Koulutyö, jossa tarkoituksena oli suunnitella sovellus lounaan ostamiseen opiskelijaravintolassa. Työssä tuli kiinnittää huomiota mahdollisimman helppoon ja nopean käytettävyyteen. 
+                            Toteutin käyttöliittymän ulkoasusuunnitelman Adobe Indesignilla ja tein myös prototyypin Adobe XD:llä. </p>
+
+                    </div>
+
+                </div>
+                <div class="toteutus">
+                    <div class="toteutus_otsikko">
+                        <p>Toteutus</p>
+
+                    </div>
+                    <div class="toteutus_teksti">
+                        <p>Adobe Illustrator</p>
+
+                    </div>
+
+                </div>
+            </div> -->
+
+        
+        <div class="reveal">
+            <div class="yhteystietosivu"> 
+                <h1> Ota yhteyttä</h1>
+                    <div class="yhteystiedot">
+                        <h2>Email: <br> matias.rautiainen@metropolia.fi</h2>
+                        <h2>Instagram: <br> @matiasrautiainen</h2>
+                        <h2>LinkedIn: <br> Matias Rautiainen</h2>            
+                    </div> 
+
+                    <div class="alas">
+                        <a href="#työsivu2"><img src="/kuvat/nuoli2.png" alt=""></a>  
+                    </div>
+                   <!--
+                    <div class="nuolet">
+                        <div class="nuoli1">
+                            <a href="https://www.instagram.com/matiasrautiainen/" target="blank"> <img src="/kuvat/nuolioikea.png" alt=""></a>
+                        </div>
+                        <div class="2nuoli">
+                            <a href="https://www.linkedin.com/in/matias-rautiainen-517336191/" target="blank"> <img src="/kuvat/nuolioikea.png" alt=""></a>
+                        </div>
+                        
+                        
+                    </div>
+                -->
+            </div>
+        </div>
+
+       
+
+            
+
     </div>
+
+    
+
+
 </body>
 </html>
